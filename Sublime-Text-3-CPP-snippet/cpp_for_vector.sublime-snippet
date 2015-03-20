@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+for (vector<${1:}>::iterator ${3:it} = ${2:}.begin(); ${3:it} != ${2:}.end(); ++${3:it})
+{
+    ${4:}
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>forvector</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.c++</scope>
+</snippet>

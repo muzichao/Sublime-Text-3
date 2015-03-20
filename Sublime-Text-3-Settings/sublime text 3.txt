@@ -1,0 +1,91 @@
+{
+    // 代码提示
+    "auto_complete": true,
+
+    // 按回车时，自动与制表位对齐
+    "auto_indent": true,
+
+    "auto_match_enabled": true,
+
+    // 设置光标闪动方式
+    "caret_style": "smooth",
+
+    // 主题设置
+    // "theme": "Soda Dark 3.sublime-theme",
+    // "theme": "Nil.sublime-theme",
+    "theme": "Flatland Dark.sublime-theme",
+
+    // 主题文件的路径
+    "color_scheme": "Packages/User/Monokai Extended Bright (SL).tmTheme",
+
+    // 为true时，保存文件时光标会在文件的最后向下换一行
+    "ensure_newline_at_eof_on_save": true,
+
+    // 不管鼠标在不在行号边栏，代码折叠按钮一直显示
+    "fade_fold_buttons": true,
+
+    // 选中的文本按Ctrl + f时，自动复制到查找面板的文本框里
+    "find_selected_text": true,
+
+    // 是否显示代码折叠按钮
+    "fold_buttons": true,
+
+    // 字体
+    // "font_face": "Consolas",
+
+    // 字体大小
+    "font_size": 17,
+
+    // 突出显示当前光标所在的行
+    "highlight_line": true,
+
+    // 突出显示修改的标签
+    "highlight_modified_tabs": true,
+
+    // 是否显示行号
+    "line_number": true,
+
+    // 是否显示行号边栏
+    "gutter": true,
+
+    // 设置每一行到顶部，以像素为单位的间距，效果相当于行距
+    "line_padding_top": 0,
+
+    // 是否特殊显示当前光标所在的括号、代码头尾闭合标记
+    "match_brackets": true,
+
+    //列显示垂直标尺，在中括号里填入数字，宽度按字符计算
+    "rulers":
+    [
+        80,
+        100
+    ],
+
+    // 切换到其它文件标签或点击其它非本软件区域，文件自动保存
+    "save_on_focus_last": true,
+
+    // 设置为true时，按Tab会根据前后环境进行代码自动匹配填补
+    "tab_completion": true,
+
+    // Tab键制表符宽度
+    "tab_size": 4,
+
+    // 设为true时，缩进和遇到Tab键时使用空格替代
+    "translate_tabs_to_spaces": true,
+
+    // 为true时，保存文件时会删除每行结束后多余的空格
+    "trim_trailing_white_space_on_save": true,
+
+    // 更新检查
+    "update_check": false,
+
+    // 是否自动换行，如果选auto，需要加双引号
+    "word_wrap": true,
+
+    // 删除你想要忽略的插件，需要重启
+    "ignored_packages":
+    [
+        "Vintage",
+        "FileDiffs"
+    ]
+}

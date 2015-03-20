@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+/************************************************************************/
+/*函数名：${1: }
+/*功  能：${2: }
+/*返回值：${3:无}
+/************************************************************************/
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>annotation</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.c++,source.c</scope>
+</snippet>

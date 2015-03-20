@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+// #include <stdlib.h>
+// 产生随机数组
+template<size_t ${1:SIZE}>
+void gen_rand_n(int (&A)[${1:SIZE}])
+{
+	srand(5);
+	for (int i = 0; i < ${1:SIZE}; ++i)
+	{
+		A[i] = rand();
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rand</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>
